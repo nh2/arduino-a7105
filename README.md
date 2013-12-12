@@ -8,5 +8,5 @@ How to use
 ----------
 
 * Clone the repo
-* Work around [this ino bug]: remove `/usr/share/arduino/libraries/Robot_Control/` (renaming will not work)
+* Work around [this ino bug](https://github.com/amperka/ino/issues/134): remove `/usr/share/arduino/libraries/Robot_Control/` (renaming will not work)
 * Install [`ino`](https://github.com/amperka/ino/), run `ino build`
