@@ -1,6 +1,8 @@
 #ifndef _IFACE_A7105_H_
 #define _IFACE_A7105_H_
 
+#include "config.h"
+
 enum A7105_State {
     A7105_SLEEP     = 0x80,
     A7105_IDLE      = 0x90,

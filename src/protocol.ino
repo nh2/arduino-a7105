@@ -1,4 +1,4 @@
-//#include "config.h"
+#include "config.h"
 //#include <Arduino.h>
 
 static u8 proto_state;

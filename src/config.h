@@ -1,3 +1,6 @@
+#ifndef _IFACE_CONFIG_H_
+#define _IFACE_CONFIG_H_
+
 #include <stdint.h>
 
 #define NUM_OUT_CHANNELS 12
@@ -40,3 +43,5 @@ enum ProtoCmds {
 
 
 void PROTOCOL_SetBindState(u32 msec);
+
+#endif

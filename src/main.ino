@@ -1,3 +1,6 @@
+#include "a7105.ino"
+#include "hubsan.ino"
+
 void loop() {
   Serial.begin(115200);
   A7105_Setup(); //A7105_Reset();
